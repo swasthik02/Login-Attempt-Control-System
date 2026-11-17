@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #071426;
+    color: white;
+}
+
+/* Navigation */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 7%;
+    background: #10243d;
+}
+
+.navbar h2 {
+    color: #00c8ff;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.navbar a:hover {
+    color: #00c8ff;
+}
+
+/* Homepage */
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(135deg, #071426, #10466b);
+}
+
+.hero h1 {
+    color: #00c8ff;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.hero h2 {
+    margin-bottom: 20px;
+}
+
+.hero p {
+    color: #c5d2e0;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.btn {
+    display: inline-block;
+    background: #00aaff;
+    color: white;
+    padding: 14px 30px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+/* Login Section */
+
+.login-section {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.login-box {
+    width: 100%;
+    max-width: 420px;
+    margin: auto;
+    padding: 35px;
+    background: #10243d;
+    border-radius: 15px;
+    border: 1px solid #31516e;
+}
+
+.login-box h2 {
+    color: #00c8ff;
+    margin-bottom: 15px;
+}
+
+.login-box p {
+    color: #c5d2e0;
+    margin-bottom: 20px;
+}
+
+.login-box label {
+    display: block;
+    text-align: left;
+    margin: 15px 0 8px;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 14px;
+    background: #071426;
+    color: white;
+    border: 1px solid #31516e;
+    border-radius: 8px;
+}
+
+.login-box button {
+    width: 100%;
+    margin-top: 25px;
+    padding: 14px;
+    background: #00aaff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.login-box button:hover {
+    background: #0077cc;
+}
+
+#message {
+    margin-top: 20px;
+    line-height: 1.6;
+    overflow-wrap: anywhere;
+}
+
+#attempts {
+    margin-top: 20px;
+}
+
+/* About */
+
+.about {
+    padding: 70px 20px;
+    text-align: center;
+    background: #10243d;
+}
+
+.about h2 {
+    color: #00c8ff;
+    margin-bottom: 20px;
+}
+
+.about p {
+    max-width: 700px;
+    margin: auto;
+    color: #c5d2e0;
+    line-height: 1.8;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    padding: 25px;
+}
+
+/* Mobile Responsive */
+
+@media(max-width: 600px) {
+
+    .navbar {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .navbar a {
+        margin: 7px;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+    }
+
+    .login-box {
+        padding: 25px;
+    }
+
+}
